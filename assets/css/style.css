@@ -80,7 +80,7 @@ header a {
   /* Links inside the navbar */
   .navbar a {
     float: left;
-    font-size: 30px;
+    font-size: 25px;
     font-weight:lighter;
     color: white;
     text-align: center;
@@ -278,7 +278,7 @@ main {
 .life img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 200px;
 }
 
 /*** 8.0 - Footer ***/
