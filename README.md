@@ -5,8 +5,8 @@
 A portfolio of previous work with deployed applications to showcase coding skills and talents. 
 ***
 ### Screenshot:
-![Top screenshot](/.images/Top-porfolio-page.jpg)
-![Bottom screenshot](/.images/Bottom-porfolio-page.jpg)
+![Top screenshot](./images/Top-porfolio-page.jpg)
+![Bottom screenshot](./images/Bottom-porfolio-page.jpg)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 ***
