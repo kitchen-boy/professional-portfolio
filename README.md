@@ -5,8 +5,13 @@
 A portfolio of previous work with deployed applications to showcase coding skills and talents. 
 ***
 ### Screenshot:
-![Top screenshot](./images/Top-porfolio-page.jpg)
-![Bottom screenshot](./images/Bottom-porfolio-page.jpg)
+Top of portfolio page:
+![Top-portfolio-page](https://user-images.githubusercontent.com/92004417/144731835-7e38e049-9f6b-4b52-85cf-159ba92228ef.jpg)
+
+Bottom of portfolio page:
+![Bottom-portfolio-page](https://user-images.githubusercontent.com/92004417/144731839-31265370-5a0d-4274-97d0-4f743e2fe657.jpg)
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 ***
