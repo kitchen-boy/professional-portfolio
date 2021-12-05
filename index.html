@@ -9,64 +9,87 @@
 </head>
 
 <body>
+    <a name="top"></a>
     <header class="header">
         <h1>KAYE<span class="chenboyce"> CHEN-BOYCE</span></h1>
-        <div>Afficiando of mundane things</div>
-        <nav>
+        <a>Afficiando of mundane things</a>
+        <!--<nav>
             <ul>
                 <li>
                     <a href="#my-work">MY WORK</a>
                 </li>
                 <li>
-                    <a href="#how-to-contact">CONTACT ME</a>
+                    <a href="#contact-me">CONTACT ME</a>
                 </li>
                 <li>
-                    <a href="#resume">RESUME</a>
+                    <a href="#about-me">ABOUT ME</a>
                 </li>
             </ul>
-        </nav>
-        
+        </nav>-->
+        <div class="navbar">
+            <a href="#top">HOME</a>
+            <a href="#about-me">ABOUT ME</a>
+            <a href="#contact-me">CONTACT ME</a>
+            <div class="dropdown">
+              <button class="dropbtn">MY WORK
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#group-project">GET-FIT APP</a>
+                <a href="#password-generator">PASSWORD GENERATOR</a>
+                <a href="#code-quiz">CODE QUIZ</a>
+                <a href="#workday-scheduler">WORK DAY SCHEDULER</a>
+                <a href="#weather-dashboard">WEATHER DASHBOARD</a>
+              </div>
+            </div>
+        </div>   
     </header>
     <main>
-        <div class="my-work">
+        <div id="my-work">
             <div class="group">
                 <!--group project-->
                 <section id="group-project">
-                    <a href="https://kitchen-boy.github.io/get-fit/">GET-FIT APP</a>
-                    <div id="get-fit">
+                    <a id="get-fit" href="https://kitchen-boy.github.io/get-fit/">GET-FIT APP
                         <img src="./assets/images/git-fit-screenshot.JPG" width/>
-                    </div>
-                    <!---->
+                    </a>
+                <!---->
                 </section>
             </div>
             <div class="assignments">
-                <section class="project" id="password-generator">
-                    PASSWORD GENERATOR
+                <section class="project"><!--password generator-->
+                    <a id="password-generator" href="">PASSWORD GENERATOR
+                        <img src="" width/>
+                    </a> 
                 </section>
-                <!--password generator-->
-                <section class="project" id="code-quiz">
-                    CODE QUIZ
+                
+                <section class="project"><!--code quiz-->
+                    <a id="code-quiz"href="">CODE QUIZ
+                        <img src="" width/>
+                    </a>
                 </section>
-                <!--code quiz-->
+               
             </div>
             <div class="assignments">
-                <section class="project" id="workday-scheduler">
-                    WORK DAY SCHEDULER
+                <section class="project"><!--work-day scheduler-->
+                    <a id="workday-scheduler">WORK DAY SCHEDULER
+                        <img src="" width/>
+                    </a>
                 </section>
-                <!--work-day scheduler-->
-                <section class="project" id="weather-dashboard">
-                    WEATHER DASHBOARD
+                
+                <section class="project"><!--weather-dashboard-->
+                    <a id="weather-dashboard">WEATHER DASHBOARD
+                        <img src="" width/>
+                    </a>
                 </section>
-                <!--weather-dashboard-->
+                
             </div>
         </div>
         <div class="life">
-            <div class="contact">CONTACT ME:
+            <div id="contact-me" class="contact">CONTACT ME:
                 <p>kaye.chen.boyce@gmail.com</p> 
             </div>
             
-            <div class="about-me">
-                <h3>About Me</h3>
+            <div id="about-me" class="contact">ABOUT ME
                 <img src="./assets/images/about-me.jpg" alt="Picture of Kaye Chen-Boyce" />
                 <p>
                     I'm just a NOOB learning how to code.
